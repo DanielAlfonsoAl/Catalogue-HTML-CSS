@@ -1,0 +1,121 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  border-radius: 20px;
+  width: 200px;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+.input-container {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 2px solid #D3D3D3;
+}
+.input-container img {
+  width: 2rem;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.input-container:hover {
+  border-color: #000000;
+}
+.input-container #search {
+  padding: 10px;
+  border: none;
+  width: 90%;
+  color: dimgray;
+}
+.input-container #search:focus {
+  outline: none;
+}
+
+.line {
+  width: 200px;
+  height: 0.5px;
+  background: #D3D3D3;
+  margin: 15px 0px 15px 0px;
+}
+
+h2 {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+}
+.price div {
+  margin-block: 5px;
+  display: flex;
+  align-items: center;
+}
+.price div .radio {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.price div .radio:checked {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: solid 2px #1E90FF !important;
+  border-radius: 10px;
+  background: radial-gradient(#1E90FF, #FFFFFF);
+}
+
+.calification {
+  margin-top: 10px;
+}
+.calification div {
+  width: 40px;
+  height: 20px;
+  padding: 5;
+  border: solid #D3D3D3 2px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8px;
+  padding: 0px 5px 5px 5px;
+  cursor: pointer;
+}
+.calification div:hover {
+  background: #D3D3D3;
+  border-color: #A9A9A9;
+}
+.calification div input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.calification div input:checked ~ label::before {
+  color: #1E90FF;
+}
+.calification div label {
+  cursor: pointer;
+}
+.calification div label::before {
+  content: "★";
+  color: darkslategrey;
+  margin-right: 5px;
+}
+
+strong {
+  margin-block: 10px;
+}/*# sourceMappingURL=style.css.map */

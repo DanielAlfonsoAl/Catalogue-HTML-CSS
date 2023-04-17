@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #D3D3D3;
+}
+
+.container {
+  overflow: hidden;
+  width: 800px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  margin: 5px;
+}
+
+#stars {
+  display: block;
+  color: #1E90FF;
+  font-size: 25px;
+  margin-block: 3px;
+}
+
+.container-img {
+  overflow: hidden;
+  width: 350px;
+  height: 250px;
+}
+.container-img img {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+.data-carwash {
+  padding: 15px;
+}
+.data-carwash .data {
+  width: 450px;
+  height: 125px;
+}/*# sourceMappingURL=style.css.map */
